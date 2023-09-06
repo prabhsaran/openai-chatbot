@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "openai-chatbot"
+version = "0.0.1"
+description = "Chatbot based on OpenAI GPT-3"
+authors = [
+    "Prabhvir Saran <prabhvir.saran@acsio.ca>"
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^2.3.3"
+flask_sqlalchemy = "^3.0.5"
