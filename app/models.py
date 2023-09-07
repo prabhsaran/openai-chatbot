@@ -1,4 +1,4 @@
-from . import db
+from .config.db import db
 
 
 class Result(db.Model):
